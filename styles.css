@@ -2,6 +2,11 @@ ul {
   list-style-type: none;
 }
 
+.main-body {
+  width: 700px;
+  margin: 0 auto;
+}
+
 .comment-box {
   width: 500px;
   height: 50px;
@@ -42,4 +47,23 @@ ul {
   display: flex;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+#commentsList {
+  list-style: none;
+}
+
+.commentContent {
+  margin: 0px;
+}
+
+.commentName {
+  margin-bottom: 0px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  text-align: end;
+}
+
+.elemclass {
+  margin-bottom: 20px;
 }
