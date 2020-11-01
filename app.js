@@ -36,7 +36,6 @@ let addComment = (name, handle, content) => {
   let elem = document.createElement("li");
   elem.classList = "elemclass";
   elem.innerHTML = `<p class='commentContent'> ${content} </p>  <p class='commentName'> - ${name}</p>  <button id='reply' class='reply-${id}'>Reply</button> `;
-
   parentUl.append(elem);
 };
 
