@@ -17,7 +17,6 @@ const replyBtns = document.querySelectorAll("#reply");
 let rootCommentList = [];
 
 addButton.addEventListener("click", (event) => {
-  //console.log(event.target.id);
   let name = document.getElementById("name").value;
   let handle = document.getElementById("handle").value;
   let content = document.getElementById("comment").value;
@@ -31,11 +30,8 @@ addButton.addEventListener("click", (event) => {
 });
 
 let addComment = (name, handle, content) => {
-  //console.log("==>", name, handle, content);
   let id = ID();
   let comment = new comments(id, name, handle, content, null);
-
-  // console.log("==>", replyBtns);
 
   let elem = document.createElement("li");
   elem.classList = "elemclass";
